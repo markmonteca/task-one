@@ -1,0 +1,247 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="API P.css">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <title>Job Board Website</title>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">ALEANNLAB</a></h2>
+        <div class="navbar-menu">
+            <a href="#jobs">Vacancies</a>
+            <a href="#companies">Companies</a>
+            <a href="#testimoni">Feedbacks</a>
+            <a href="#blog">FAQ</a>
+            <a href="#">Log In</a>
+        </div>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <!--header-->
+    <header>
+        <h1 class="header-title">
+            YOUR <br> <span>DREAM</span> <br> JOB
+        </h1>
+    </header>
+
+    <!--search-->
+    <div class="search-wrapper">
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="Vacancy Title & Keywords">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+    <!--filer box-->
+    <div class="filter-box">
+        <div class="filter-dropdown">
+            <select class="filter-select" id="vacancy-level" name="vacancy-level">
+                <option>Vacancy Level</option>
+                <option>Entry</option>
+                <option>Mid-Senior</option>
+                <option>Director</option>
+            </select>
+            <select class="filter-select" id="vacancy-function" name="vacancy-function">
+                <option>Vacancy Function</option>
+                <option>IT</option>
+                <option>Management</option>
+                <option>Education</option>
+            </select>
+            <select class="filter-select" id="employment" name="employment">
+                <option>Employment Type</option>
+                <option>Internship</option>
+                <option>Part-Time</option>
+                <option>Full-Time</option>
+            </select>
+            <select class="filter-select" id="location" name="location">
+                <option>Locations</option>
+                <option>Remote</option>
+                <option>US</option>
+                <option>UK</option>
+            </select>
+            <select class="filter-select" id="education" name="education">
+                <option>Education</option>
+                <option>High School</option>
+                <option>Bachelor's Degree</option>
+                <option>Master's Degree</option>
+            </select>
+        </div>
+        <div class="filter-chosen">
+            <div class="chosen-card">
+                Remote <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Full-Time <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                UK <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Entry Level <i class="fas fa-times-circle"></i>
+            </div>
+        </div>
+    </div>
+    <!--job listing-->
+    <section class="job-list" id="jobs">
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/hacker.jpg">
+                <div class="job-detail">
+                    <h4>HackerRank</h4>
+                    <h3>Software Engineer</h3>
+                    <p>Unique role for people with an experience</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JavaScript</a>
+            </div>
+            <div class="job-posted">
+                posted 1h ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/meta.jpg">
+                <div class="job-detail">
+                    <h4>Meta</h4>
+                    <h3>Team Lead</h3>
+                    <p>Unique role for people with an experience</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JavaScript</a>
+            </div>
+            <div class="job-posted">
+                posted 2h ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/mitsubishi.jpg">
+                <div class="job-detail">
+                    <h4>Mitsubishi</h4>
+                    <h3>Senior Developer</h3>
+                    <p>Unique role for people with an experience</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JavaScript</a>
+            </div>
+            <div class="job-posted">
+                posted 3h ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/Haneda.jpg">
+                <div class="job-detail">
+                    <h4>Haneda Airport</h4>
+                    <h3>Junior Developer</h3>
+                    <p>Unique role for people with an experience</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JavaScript</a>
+            </div>
+            <div class="job-posted">
+                posted 7h ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/uni.jpg">
+                <div class="job-detail">
+                    <h4>Osaka University</h4>
+                    <h3>Python Developer</h3>
+                    <p>Unique role for people with an experience.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JavaScript</a>
+            </div>
+            <div class="job-posted">
+                posted 5h ago
+            </div>
+        </div>
+        <button class="job-more">Reveal</button>
+    </section>
+    <!--join-->
+    <section class="join">
+        <div class="join-detail">
+            <h1 class="section-title">START YOUR NEW ROLE WITH US!</h1>
+            <p>We hope we have met your expectations.</p>
+        </div>
+        <button class="join-button">EXCITED?</button>
+    </section>
+    <!--featured company-->
+    <!--
+    <section class="featured" id="companies">
+        <h1 class="section-title">Featured Companies</h1>
+        <p>Check the list.</p>
+        <div class="featured-wrapper">
+            <div class="featured-card">
+                <img class="featured-image" src="images/hacker.jpg">
+                <p>HackerRank</p>
+                <button class="featured-button">View Vacancy</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/hacker.jpg">
+                <p>HackerRank</p>
+                <button class="featured-button">View Vacancy</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/hacker.jpg">
+                <p>HackerRank</p>
+                <button class="featured-button">View Vacancy</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/hacker.jpg">
+                <p>HackerRank</p>
+                <button class="featured-button">View Vacancy</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/hacker.jpg">
+                <p>HackerRank</p>
+                <button class="featured-button">View Vacancy</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/hacker.jpg">
+                <p>HackerRank</p>
+                <button class="featured-button">View Vacancy</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/hacker.jpg">
+                <p>HackerRank</p>
+                <button class="featured-button">View Vacancy</button>
+            </div>
+        </div>
+    </section>
+    -->
+</body>
+</html>
